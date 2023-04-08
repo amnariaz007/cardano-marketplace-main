@@ -8,7 +8,6 @@ import type {CIP30Provider} from "@/types";
 import {BigNum} from "@emurgo/cardano-serialization-lib-asmjs";
 import {getAssetDetail} from "@/scripts/blockfrost";
 
-
 const open = ref(true)
 
 </script>
