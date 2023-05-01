@@ -1,7 +1,6 @@
 
 import {blockfrost,market} from    "@/config"
 
-
 export function listMarket() {
     return getBlockfrost("/addresses/" + market.address + "/utxos?order=desc")
 }
